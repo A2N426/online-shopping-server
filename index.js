@@ -35,23 +35,35 @@ async function run() {
 
 
         app.get("/allToys", async (req, res) => {
-            const result = await toysCollection.find().toArray();
+            const result = await toysCollection.find().limit(20).toArray();
             res.send(result);
         })
 
         app.get("/allToys/:id", async (req, res) => {
             const id = req.params.id;
-            console.log(id)
             const query = { _id: new ObjectId(id) }
             const result = await toysCollection.findOne(query);
             res.send(result);
         })
 
+        // search by name
+        app.get("/getToyByText/:searchText",async(req,res)=>{
+            const searchText = req.params.searchText;
+            const result = await toysCollection.find({
+                $or:[
+                    {name: {$regex:searchText,$options:"i"}}
+                ]
+            }).toArray()
+            res.send(result)
+        })
+
+        // sort by price
+
 
         app.get("/myToys/:email", async (req, res) => {
             const result = await toysCollection.find({
                 sellerEmail: req.params.email,
-            }).toArray();
+            }).sort({price:1}).toArray();
             res.send(result);
         })
 
