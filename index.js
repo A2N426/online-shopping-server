@@ -39,11 +39,24 @@ async function run() {
             res.send(result);
         })
 
+        app.get("/allToys/:id", async (req, res) => {
+            const id = req.params.id;
+            console.log(id)
+            const query = { _id: new ObjectId(id) }
+            const result = await toysCollection.findOne(query);
+            res.send(result);
+        })
+
 
         app.get("/myToys/:email", async (req, res) => {
             const result = await toysCollection.find({
                 sellerEmail: req.params.email,
             }).toArray();
+            res.send(result);
+        })
+
+        app.get("/allToysByCategory/:category", async (req, res) => {
+            const result = await toysCollection.find({ category: req.params.category }).toArray();
             res.send(result);
         })
 
@@ -54,12 +67,30 @@ async function run() {
             res.send(result);
         })
 
-        app.delete("/myToys/:id", async (req, res) => {
+        app.patch("/allToys/:id", async (req, res) => {
+            const id = req.params.id;
+            console.log(id)
+            const updateInfo = req.body;
+            const filter = { _id: new ObjectId(id) }
+            const updatedDoc = {
+                $set: {
+                    price: updateInfo.price,
+                    available_quantity: updateInfo.available_quantity,
+                    description: updateInfo.description,
+                }
+            }
+            const result = await toysCollection.updateOne(filter, updatedDoc)
+            res.send(result);
+        })
+
+
+        app.delete("/allToys/:id", async (req, res) => {
             const id = req.params.id;
             const query = { _id: new ObjectId(id) }
             const result = await toysCollection.deleteOne(query);
             res.send(result);
         })
+
 
 
 
