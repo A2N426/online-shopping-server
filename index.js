@@ -47,11 +47,11 @@ async function run() {
         })
 
         // search by name
-        app.get("/getToyByText/:searchText",async(req,res)=>{
+        app.get("/getToyByText/:searchText", async (req, res) => {
             const searchText = req.params.searchText;
             const result = await toysCollection.find({
-                $or:[
-                    {name: {$regex:searchText,$options:"i"}}
+                $or: [
+                    { name: { $regex: searchText, $options: "i" } }
                 ]
             }).toArray()
             res.send(result)
@@ -63,7 +63,7 @@ async function run() {
         app.get("/myToys/:email", async (req, res) => {
             const result = await toysCollection.find({
                 sellerEmail: req.params.email,
-            }).sort({price:1}).toArray();
+            }).toArray();
             res.send(result);
         })
 
@@ -92,6 +92,17 @@ async function run() {
                 }
             }
             const result = await toysCollection.updateOne(filter, updatedDoc)
+            res.send(result);
+        })
+
+        // sort by price
+        app.get("/sortByAscending", async (req, res) => {
+            const result = await toysCollection.find().sort({ price: -1 }).toArray();
+            res.send(result)
+        })
+
+        app.get("/sortByDescending", async (req, res) => {
+            const result = await toysCollection.find().sort({ price: 1 }).toArray()
             res.send(result);
         })
 
