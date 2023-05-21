@@ -115,9 +115,8 @@ async function run() {
             res.send(result);
         })
 
-        app.patch("/allToys/:id", async (req, res) => {
+        app.put("/allToys/:id", async (req, res) => {
             const id = req.params.id;
-            console.log(id)
             const updateInfo = req.body;
             const filter = { _id: new ObjectId(id) }
             const updatedDoc = {
