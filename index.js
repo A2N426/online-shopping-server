@@ -7,7 +7,13 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 // middleware
-app.use(cors());
+// app.use(cors());
+const corsConfig = {
+    origin: '*',
+    credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'DELETE']
+    }
+    app.use(cors(corsConfig))
 app.use(express.json());
 
 
@@ -66,7 +72,10 @@ async function run() {
 
 
         app.get("/allToys", async (req, res) => {
-            const result = await toysCollection.find().limit(20).toArray();
+            const page = parseInt(req.query.page) || 0;
+            const limit = parseInt(req.query.limit) || 20;
+            const skip = page * limit;
+            const result = await toysCollection.find().skip(skip).limit(limit).toArray();
             res.send(result);
         })
 
@@ -87,15 +96,16 @@ async function run() {
             }).toArray()
             res.send(result)
         })
-
-        // get by email
-
-
         
 
         app.get("/allToysByCategory/:category", async (req, res) => {
-            const result = await toysCollection.find({ category: req.params.category }).toArray();
+            const result = await toysCollection.find({category: req.params.category}).toArray();
             res.send(result);
+        })
+
+        app.get("/totalToys",async(req,res)=>{
+            const result = await toysCollection.estimatedDocumentCount();
+            res.send({totalToys:result});
         })
 
 
