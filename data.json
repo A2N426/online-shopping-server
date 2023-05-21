@@ -1,0 +1,218 @@
+[
+    {
+        "img":"https://img.freepik.com/free-vector/cartoon-bumper-car-white-background_1308-107878.jpg?size=626&ext=jpg&ga=GA1.2.24677610.1673838713&semt=ais",
+        "name":"Mini car",
+        "category":"sports car",
+        "price":"500",
+        "rating":"5",
+        "available_quantity":"20",
+        "description":"A model car or toy car is a miniature representation of an automobile. Other miniature motor vehicles, such as trucks, buses, or even ATVs, etc."
+    },
+    {
+        "img":"https://img.freepik.com/free-vector/cartoon-bumper-car-white-background_1308-107878.jpg?size=626&ext=jpg&ga=GA1.2.24677610.1673838713&semt=ais",
+        "name":"Bumber car",
+        "category":"sports car",
+        "price":"600",
+        "rating":"7",
+        "available_quantity":"15",
+        "description":"A model car or toy car is a miniature representation of an automobile. Other miniature motor vehicles, such as trucks, buses, or even ATVs, etc."
+    },
+    {
+        "img":"https://img.freepik.com/free-photo/fun-gorilla-3d-illustration_183364-81053.jpg?size=626&ext=jpg&ga=GA1.1.24677610.1673838713&semt=ais",
+        "name":"gorilla car",
+        "category":"regular car",
+        "price":"800",
+        "rating":"9",
+        "available_quantity":"25",
+        "description":"A model car or toy car is a miniature representation of an automobile. Other miniature motor vehicles, such as trucks, buses, or even ATVs, etc."
+    },
+    {
+        "img":"https://images.freeimages.com/images/previews/d50/racing-car-model-1413571.jpg",
+        "name":"spider car",
+        "category":"regular car",
+        "price":"500",
+        "rating":"5",
+        "available_quantity":"20",
+        "description":"A model car or toy car is a miniature representation of an automobile. Other miniature motor vehicles, such as trucks, buses, or even ATVs, etc."
+    },
+    {
+        "img":"https://img.freepik.com/free-photo/red-pickup-model-black-floor_1150-16350.jpg?size=626&ext=jpg&ga=GA1.1.24677610.1673838713&semt=ais",
+        "name":"Truck Hod",
+        "category":"truck",
+        "price":"100",
+        "rating":"3",
+        "available_quantity":"5",
+        "description":"A model car or toy car is a miniature representation of an automobile. Other miniature motor vehicles, such as trucks, buses, or even ATVs, etc."
+    },
+    {
+        "img":"https://img.freepik.com/free-photo/still-life-colorful-gummy-bears_23-2149870791.jpg?size=626&ext=jpg&ga=GA1.1.24677610.1673838713&semt=ais",
+        "name":"Mini truck",
+        "category":"truck",
+        "price":"1888",
+        "rating":"4",
+        "available_quantity":"22",
+        "description":"A model car or toy car is a miniature representation of an automobile. Other miniature motor vehicles, such as trucks, buses, or even ATVs, etc."
+    },
+    {
+        "img":"https://img.freepik.com/premium-photo/toys-collection-isolated-white-background_635416-2394.jpg?size=626&ext=jpg&ga=GA1.2.24677610.1673838713&semt=ais",
+        "name":"Mini car",
+        "category":"sports car",
+        "price":"500",
+        "rating":"5",
+        "available_quantity":"20",
+        "description":"A model car or toy car is a miniature representation of an automobile. Other miniature motor vehicles, such as trucks, buses, or even ATVs, etc."
+    },
+    {
+        "img":"https://img.freepik.com/free-vector/cartoon-bumper-car-white-background_1308-107878.jpg?size=626&ext=jpg&ga=GA1.2.24677610.1673838713&semt=ais",
+        "name":"Bumber car",
+        "category":"sports car",
+        "price":"600",
+        "rating":"7",
+        "available_quantity":"15",
+        "description":"A model car or toy car is a miniature representation of an automobile. Other miniature motor vehicles, such as trucks, buses, or even ATVs, etc."
+    },
+    {
+        "img":"https://img.freepik.com/free-photo/fun-gorilla-3d-illustration_183364-81053.jpg?size=626&ext=jpg&ga=GA1.1.24677610.1673838713&semt=ais",
+        "name":"gorilla car",
+        "category":"regular car",
+        "price":"800",
+        "rating":"9",
+        "available_quantity":"25",
+        "description":"A model car or toy car is a miniature representation of an automobile. Other miniature motor vehicles, such as trucks, buses, or even ATVs, etc."
+    },
+    {
+        "img":"https://images.unsplash.com/photo-1594787318286-3d835c1d207f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dG95JTIwY2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "name":"spider car",
+        "category":"regular car",
+        "price":"500",
+        "rating":"5",
+        "available_quantity":"20",
+        "description":"A model car or toy car is a miniature representation of an automobile. Other miniature motor vehicles, such as trucks, buses, or even ATVs, etc."
+    },
+    {
+        "img":"https://img.freepik.com/free-photo/red-pickup-model-black-floor_1150-16350.jpg?size=626&ext=jpg&ga=GA1.1.24677610.1673838713&semt=ais",
+        "name":"Truck Hod",
+        "category":"truck",
+        "price":"100",
+        "rating":"3",
+        "available_quantity":"5",
+        "description":"A model car or toy car is a miniature representation of an automobile. Other miniature motor vehicles, such as trucks, buses, or even ATVs, etc."
+    },
+    {
+        "img":"https://media.istockphoto.com/id/526534571/photo/yellow-fifties-toy-model-car.jpg?b=1&s=612x612&w=0&k=20&c=uki8khthtBs_h7OdsIjHZN3XjQpbMBmq6wAH6GL9B2g=",
+        "name":"Mini truck",
+        "category":"truck",
+        "price":"1888",
+        "rating":"4",
+        "available_quantity":"22",
+        "description":"A model car or toy car is a miniature representation of an automobile. Other miniature motor vehicles, such as trucks, buses, or even ATVs, etc."
+    },
+    {
+        "img":"https://img.freepik.com/free-vector/cartoon-bumper-car-white-background_1308-107878.jpg?size=626&ext=jpg&ga=GA1.2.24677610.1673838713&semt=ais",
+        "name":"Mini car",
+        "category":"sports car",
+        "price":"500",
+        "rating":"5",
+        "available_quantity":"20",
+        "description":"A model car or toy car is a miniature representation of an automobile. Other miniature motor vehicles, such as trucks, buses, or even ATVs, etc."
+    },
+    {
+        "img":"https://media.istockphoto.com/id/1363606790/es/foto/coche-de-pl%C3%A1stico-de-juguete-feliz-para-ni%C3%B1os-sobre-fondo-blanco.jpg?s=612x612&w=0&k=20&c=v_r79SxTXIycgUwc8QaaPU6WeajBlqUC-t1I_Brs7yI=",
+        "name":"Bumber car",
+        "category":"sports car",
+        "price":"600",
+        "rating":"7",
+        "available_quantity":"15",
+        "description":"A model car or toy car is a miniature representation of an automobile. Other miniature motor vehicles, such as trucks, buses, or even ATVs, etc."
+    },
+    {
+        "img":"https://img.freepik.com/free-photo/fun-gorilla-3d-illustration_183364-81053.jpg?size=626&ext=jpg&ga=GA1.1.24677610.1673838713&semt=ais",
+        "name":"gorilla car",
+        "category":"regular car",
+        "price":"800",
+        "rating":"9",
+        "available_quantity":"25",
+        "description":"A model car or toy car is a miniature representation of an automobile. Other miniature motor vehicles, such as trucks, buses, or even ATVs, etc."
+    },
+    {
+        "img":"https://media.istockphoto.com/id/1150095816/es/foto/macro-imagen-de-coche-de-juguete-vintage.jpg?s=612x612&w=0&k=20&c=98t3wD5wZ6pL5r-JBO8zwhFe8yoPkeJn05QKpfvW5L0=",
+        "name":"spider car",
+        "category":"regular car",
+        "price":"500",
+        "rating":"5",
+        "available_quantity":"20",
+        "description":"A model car or toy car is a miniature representation of an automobile. Other miniature motor vehicles, such as trucks, buses, or even ATVs, etc."
+    },
+    {
+        "img":"https://images.freeimages.com/images/previews/d50/racing-car-model-1413571.jpg",
+        "name":"Truck Hod",
+        "category":"truck",
+        "price":"100",
+        "rating":"3",
+        "available_quantity":"5",
+        "description":"A model car or toy car is a miniature representation of an automobile. Other miniature motor vehicles, such as trucks, buses, or even ATVs, etc."
+    },
+    {
+        "img":"https://img.freepik.com/free-photo/still-life-colorful-gummy-bears_23-2149870791.jpg?size=626&ext=jpg&ga=GA1.1.24677610.1673838713&semt=ais",
+        "name":"Mini truck",
+        "category":"truck",
+        "price":"1888",
+        "rating":"4",
+        "available_quantity":"22",
+        "description":"A model car or toy car is a miniature representation of an automobile. Other miniature motor vehicles, such as trucks, buses, or even ATVs, etc."
+    },
+    {
+        "img":"https://media.istockphoto.com/id/1363606790/es/foto/coche-de-pl%C3%A1stico-de-juguete-feliz-para-ni%C3%B1os-sobre-fondo-blanco.jpg?s=612x612&w=0&k=20&c=v_r79SxTXIycgUwc8QaaPU6WeajBlqUC-t1I_Brs7yI=",
+        "name":"Mini car",
+        "category":"sports car",
+        "price":"500",
+        "rating":"5",
+        "available_quantity":"20",
+        "description":"A model car or toy car is a miniature representation of an automobile. Other miniature motor vehicles, such as trucks, buses, or even ATVs, etc."
+    },
+    {
+        "img":"https://img.freepik.com/free-psd/3d-illustration-children-s-toy-car_23-2149345298.jpg?size=626&ext=jpg&ga=GA1.2.24677610.1673838713&semt=ais",
+        "name":"Bumber car",
+        "category":"sports car",
+        "price":"600",
+        "rating":"7",
+        "available_quantity":"15",
+        "description":"A model car or toy car is a miniature representation of an automobile. Other miniature motor vehicles, such as trucks, buses, or even ATVs, etc."
+    },
+    {
+        "img":"https://media.istockphoto.com/id/1150095816/es/foto/macro-imagen-de-coche-de-juguete-vintage.jpg?s=612x612&w=0&k=20&c=98t3wD5wZ6pL5r-JBO8zwhFe8yoPkeJn05QKpfvW5L0=",
+        "name":"gorilla car",
+        "category":"regular car",
+        "price":"800",
+        "rating":"9",
+        "available_quantity":"25",
+        "description":"A model car or toy car is a miniature representation of an automobile. Other miniature motor vehicles, such as trucks, buses, or even ATVs, etc."
+    },
+    {
+        "img":"https://images.freeimages.com/images/previews/0c7/vehicle-1156020.jpg",
+        "name":"spider car",
+        "category":"regular car",
+        "price":"500",
+        "rating":"5",
+        "available_quantity":"20",
+        "description":"A model car or toy car is a miniature representation of an automobile. Other miniature motor vehicles, such as trucks, buses, or even ATVs, etc."
+    },
+    {
+        "img":"https://images.pexels.com/photos/35619/capri-ford-oldtimer-automotive.jpg?auto=compress&cs=tinysrgb&w=600",
+        "name":"Truck Hod",
+        "category":"truck",
+        "price":"100",
+        "rating":"3",
+        "available_quantity":"5",
+        "description":"A model car or toy car is a miniature representation of an automobile. Other miniature motor vehicles, such as trucks, buses, or even ATVs, etc."
+    },
+    {
+        "img":"https://images.freeimages.com/images/previews/d50/racing-car-model-1413571.jpg",
+        "name":"Mini truck",
+        "category":"truck",
+        "price":"1888",
+        "rating":"4",
+        "available_quantity":"22",
+        "description":"A model car or toy car is a miniature representation of an automobile. Other miniature motor vehicles, such as trucks, buses, or even ATVs, etc."
+    }
+]
